@@ -37,7 +37,9 @@ a {
 
 /* The divs of each individual projects */
 .project-div {
-    display:flex;
+    display: flex;
+    width: 10px;
+    height: 50px;
 }
 
 /* The div that holds the divs for the individual projects */
