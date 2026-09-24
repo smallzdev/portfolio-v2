@@ -1,21 +1,18 @@
 body {
-    background-color: rgb(53, 53, 227);
+    background-color: #BBFBFC;
 }
 
 h1 {
     text-align: center;
     font-size: 64px;
-    color: rgb(255, 255, 255);
     font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 h2 {
-    color: rgb(255, 255, 255);
     font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 p {
-    color: rgb(255, 255, 255);
     font-family: Lato, Helvetica, Arial, sans-serif;
     font-size: 24px;
     line-height: 1;
@@ -28,7 +25,7 @@ p {
 }
 
 a {
-    color: rgb(178, 112, 146);
+    color: #07999C;
     font-family: Lato, Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-right: 10px;
@@ -45,15 +42,14 @@ a {
     width: 180px;
     height: 40px;
     border: 2px solid #000;
-    background-color: rgb(178, 112, 146);
+    background-color: #07999C;
     font-weight: bold;
-    color: rgb(255, 255, 255);
 }
 
 .TerraRush:hover, .Commissions:hover {
     transition: 0.3s;
     opacity: 0.7;
-    color: rgb(255, 255, 255);
+    color: #09C5C8;
     cursor: pointer;
 }
 
@@ -61,7 +57,7 @@ a {
     transition: 0.3s;
     opacity: 0.5;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: #63F5F8;
 }
 
 .place-image {
@@ -76,6 +72,7 @@ a {
 
 .place-text {
     margin-left: 10px;
+    color: white;
 }
 
 .black-text {

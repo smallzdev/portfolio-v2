@@ -5,8 +5,8 @@ Link to view on github pages: [https://smallzdev.github.io/portfolio/]([url](htt
 <br>
 Warning!! Please don't copy or steal anything, licence coming soon.
 
-**Why I created this project? 🤔**
-I created this personal portfolio as a beginner project into html and CSS. ALthough it doesn't look perfect, I'm happy with it as a begginer project. I tried to make it space themed with blue and purple (hopefully you can see it if you look hard enough) but yeah.
+**Why I made a version 2 of this project? 🤔**
+I originally created version 1 of my personal portfolio as a beginner project into html and CSS. It wasn't that pleasant to look at, and I wanted to add more features to it such as the project tab. I'm sitll not amazing at this, but I thought I might as well try to improve.
 
 **Feautures list 🎯**
 <br>
@@ -20,6 +20,7 @@ I created this personal portfolio as a beginner project into html and CSS. ALtho
 8. 😀 About me section including images and labels of places I want to visit.
 9. 😑 Spacing and lines between paragraphs and sections (using breaks and split p variables.
 10. ✍️ Imported a font called 'Lato' from google fonts.
+11. 😎 Projects tab, with details, links, and descriptions about projects I've made.
 
 **About the feautures 😎**
 <br>
@@ -40,4 +41,6 @@ Anyways, I hope you like it!
 
 **Credits ✨**
 <br>
-This project was made by me. I only used AIs such as Copilot CLI, and ChatGPT to debug (not edit the script, just tell me what I did wrong), and sometimes the inline suggestions on VS code.
+This project was made by me. In version 1, I only used AIs such as Copilot CLI, and ChatGPT to debug (not edit the script, just tell me what I did wrong), and sometimes the inline suggestions on VS code.
+
+In v2, I haven't used AI but I looked online for help, as well as rereading some of my other projects code to understand what I did.
