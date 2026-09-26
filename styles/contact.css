@@ -53,3 +53,17 @@ a {
     align-items: center;
     margin-left: 14px;
 }
+
+button:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+    color: #09C5C8;
+    cursor: pointer;
+}
+
+button:active {
+    transition: 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+    color: #63F5F8;
+}

@@ -1,3 +1,5 @@
+/* CSS page for the homepage */
+
 body {
     background-color: #BBFBFC;
 }
@@ -35,30 +37,34 @@ a {
     font-size: 24px;
 }
 
-.TerraRush, .Commissions {
+/* Buttons */
+
+button {
     font-size: 15px;
     font-family: Lato, Helvetica, Arial, sans-serif;
-    border-radius: 20px;
-    width: 180px;
-    height: 40px;
-    border: 2px solid #000;
-    background-color: #07999C;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: black;
+    background-color: #07999c;
     font-weight: bold;
+    border-color: black;
+    border: none;
 }
 
-.TerraRush:hover, .Commissions:hover {
+button:hover {
     transition: 0.3s;
     opacity: 0.7;
     color: #09C5C8;
     cursor: pointer;
 }
 
-.TerraRush:active, .Commissions:active {
+button:active {
     transition: 0.3s;
     opacity: 0.5;
     cursor: pointer;
     color: #63F5F8;
 }
+/* End of buttons section */
 
 .place-image {
     background-size: 100%;
@@ -79,22 +85,24 @@ a {
     color: rgb(0, 0, 0);
 }
 
+/* Image Divs for the places */
+
 .antartica-image {
-    background-image: url('assets/antartica.jpg');
+    background-image: url('../assets/antartica.jpg');
 }
 
 .alaska-image {
-    background-image: url('assets/alaska.jpeg');
+    background-image: url('../assets/alaska.jpeg');
 }
 
 .italy-image {
-    background-image: url('assets/italy.jpg');
+    background-image: url('../assets/italy.jpg');
 }
 
 .belgium-image {
-    background-image: url('assets/belgium.jpg');
+    background-image: url('../assets/belgium.jpg');
 }
 
 .south-korea-image {
-    background-image: url('assets/southkorea.jpg')
+    background-image: url('../assets/southkorea.jpg')
 }
