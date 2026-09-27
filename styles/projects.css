@@ -37,24 +37,75 @@ image {
     border-radius: 24px;
 }
 
+/* Buttons */
+
 button {
-    background-color: #07999C;
+    font-size: 15px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: black;
+    background-color: #07999c;
+    font-weight: bold;
     border-color: black;
-    border-radius: 24px;
-    width: 80px;
-    height: 48px;
-    font-size: 18px;
-    font-family: Lato, Arial, Helvetica, sans-serif
+    border: none;
 }
+
+button:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+    color: #09C5C8;
+    cursor: pointer;
+}
+
+button:active {
+    transition: 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+    color: #63F5F8;
+}
+/* End of buttons section */
 
 
 /* The divs of each individual projects */
 .project-div {
-    display: flex;
-    width: 400px;
-    height: 200px;
-    margin: 30px;
+    background-size: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 294px;
+    height: 196px;
 }
+
+.solaros {
+    background-image: url('../assets/solaros.png')
+}
+
+.hackpad {
+    background-image: url('../assets/hackpad.png')
+}
+
+.portfolio-v1 {
+    background-image: url(../assets/portfoliov1.png)
+}
+
+.portfolio-v2 {
+    background-image: url(../assets/antartica.jpg)
+}
+
+.yaknow {
+    background-image: url(../assets/alaska.jpeg)
+}
+
+.bakebuild {
+    background-image: url(../assets/bakebuild.png)
+}
+
+.thirdspace-godot {
+    background-image: url(../assets/godotgame.PNG)
+}
+
 
 .date-text {
     margin-left: 30px;
@@ -64,3 +115,4 @@ button {
 .project-holder {
     display: flex;
 }
+

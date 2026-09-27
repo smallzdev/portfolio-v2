@@ -31,15 +31,18 @@ a {
     margin-right: 10px;
 }
 
+/* Buttons */
+
 button {
-    margin: 10px;
-    background-color: #07999C;
+    font-size: 15px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: black;
+    background-color: #07999c;
+    font-weight: bold;
     border-color: black;
-    border-radius: 24px;
-    width: 120px;
-    height: 40px;
-    font-size: 18px;
-    font-family: Lato, Arial, Helvetica, sans-serif
+    border: none;
 }
 
 button:hover {
@@ -55,3 +58,4 @@ button:active {
     cursor: pointer;
     color: #63F5F8;
 }
+/* End of buttons section */
