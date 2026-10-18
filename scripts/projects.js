@@ -21,3 +21,34 @@ dateUpdate('portfolio','#portfoliov1-date')
 dateUpdate('portfolio-v2', '#portfoliov2-date')
 dateUpdate('yaknow', '#yaknow-date')
 dateUpdate('bakebuild', '#bakebuild-date')
+
+
+// Opens the projects when the divs are clicked on the projects.html page.
+
+document.getElementById('thirdspace-godot').addEventListener('click', function() {
+    window.open('projects/thirdspacegame.html', '_blank')
+});
+
+document.getElementById('solaros').addEventListener('click', function() {
+    window.open('projects/solaros.html', '_blank')
+});
+
+document.getElementById('hackpad').addEventListener('click', function() {
+    window.open('projects/hackpad.html')
+});
+
+document.getElementById('portfolio-v1').addEventListener('click', function() {
+    window.open('projects/portfoliov1.html')
+});
+
+document.getElementById('portfolio-v2').addEventListener('click', function() {
+    window.open('projects/portfoliov2.html')
+});
+
+document.getElementById('yaknow').addEventListener('click', function() {
+    window.open('projects/yaknow.html', '_blank')
+});
+
+document.getElementById('bakebuild').addEventListener('click', function() {
+    window.open('projects/bakebuild.html', '_blank')
+})

@@ -76,6 +76,7 @@ button:active {
     display: inline-block;
     width: 294px;
     height: 196px;
+    cursor: pointer;
 }
 
 .solaros {
@@ -95,7 +96,7 @@ button:active {
 }
 
 .yaknow {
-    background-image: url(../assets/alaska.jpeg)
+    background-image: url(../assets/yaknow.png)
 }
 
 .bakebuild {
@@ -116,3 +117,6 @@ button:active {
     display: flex;
 }
 
+.white-text {
+    color: rgb(255, 255, 255);
+}
