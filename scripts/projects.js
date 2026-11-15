@@ -21,6 +21,7 @@ dateUpdate('portfolio','#portfoliov1-date')
 dateUpdate('portfolio-v2', '#portfoliov2-date')
 dateUpdate('yaknow', '#yaknow-date')
 dateUpdate('bakebuild', '#bakebuild-date')
+dateUpdate('hatchapet', '#hatchapet-date')
 
 
 // Opens the projects when the divs are clicked on the projects.html page.
@@ -51,4 +52,8 @@ document.getElementById('yaknow').addEventListener('click', function() {
 
 document.getElementById('bakebuild').addEventListener('click', function() {
     window.open('projects/bakebuild.html', '_blank')
+})
+
+document.getElementById('hatchapet').addEventListener('click', function() {
+    window.open('projects/hatchapet.html', '_blank')
 })
